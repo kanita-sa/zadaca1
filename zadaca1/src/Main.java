@@ -28,7 +28,12 @@ public class Main {
 
 
         //Zadatak 6
-        System.out.println("" + (char)75+(char)97+(char)110+(char)105+(char)116+(char)97 + "\n");
+        char letterK = 75;
+        char letterA = 97;
+        char letterN = 110;
+        char letterI = 105;
+        char letterT = 116;
+        System.out.println("" + letterK+ letterA + letterN + letterI + letterT + letterA+ "\n");
 
 
         //Zadatak 7
@@ -47,8 +52,10 @@ public class Main {
         System.out.println(bonusMessage + "X times");
         theNumberInText = theNumberInText*2;
         System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
+        System.out.println(bonusMessage + "XX times");
         theNumberInText = theNumberInText*2;
         System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
+        System.out.println(bonusMessage + "XXX times");
         theNumberInText = theNumberInText*2;
         System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
         System.out.println(bonusMessage + "XXXX times");
@@ -57,11 +64,13 @@ public class Main {
         System.out.println(bonusMessage + "XXXXX times (Total of: 5 times)");
         theNumberInText = theNumberInText*2;
         System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
+        System.out.println(bonusMessage + "XXXXXX times");
         theNumberInText = theNumberInText*2;
         System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
+        System.out.println(bonusMessage + "XXXXXXX times");
         theNumberInText = theNumberInText*2;
         System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
         System.out.println(bonusMessage + "XXXXXXXX times");
-        
+
     }
 }
