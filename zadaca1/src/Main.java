@@ -32,8 +32,7 @@ public class Main {
 
 
         //Zadatak 7
-        String theUltimateQuestion = "Answer to the Ultimate Question of Life, the Universe, " +
-                "and Everything is the number ";
+        String theUltimateQuestion = "Answer to the Ultimate Question of Life, the Universe, and Everything is the number ";
         int theNumber = 42;
         boolean isTrue = true;
         System.out.println(theUltimateQuestion + theNumber + ": " + isTrue + "\n");
@@ -43,28 +42,26 @@ public class Main {
         String firstPartOfTheText = "This is a number ";
         String secondPartOfTheText = " and it is about to double";
         int theNumberInText = 123;
+        String bonusMessage = "The original number has been doubled: ";
         System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
-        System.out.println("Doubled value is: " + (8*theNumberInText) + "\n");
-
-
-        //BONUS zadatak
-        int doubledNumber = 321;
-        int doubledValue = 4;
-        String addingX = "X".repeat(doubledValue);
-        System.out.println(firstPartOfTheText + doubledNumber + secondPartOfTheText);
-        System.out.println("The original number has been doubled " + addingX + " Times");
-        System.out.println("Doubled value is: " + (doubledValue*doubledNumber) + "\n");
-
-        doubledValue = 1;
-        addingX = "X".repeat(doubledValue);
-        System.out.println(firstPartOfTheText + doubledNumber + secondPartOfTheText);
-        System.out.println("The original number has been doubled " + addingX + " Times");
-        System.out.println("Doubled value is: " + (doubledValue*doubledNumber)+ "\n");
-
-        doubledValue = 8;
-        addingX = "X".repeat(doubledValue);
-        System.out.println(firstPartOfTheText + doubledNumber + secondPartOfTheText);
-        System.out.println("The original number has been doubled " + addingX + " Times");
-        System.out.println("Doubled value is: " + (doubledValue*doubledNumber));
+        System.out.println(bonusMessage + "X times");
+        theNumberInText = theNumberInText*2;
+        System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
+        theNumberInText = theNumberInText*2;
+        System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
+        theNumberInText = theNumberInText*2;
+        System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
+        System.out.println(bonusMessage + "XXXX times");
+        theNumberInText = theNumberInText*2;
+        System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
+        System.out.println(bonusMessage + "XXXXX times (Total of: 5 times)");
+        theNumberInText = theNumberInText*2;
+        System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
+        theNumberInText = theNumberInText*2;
+        System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
+        theNumberInText = theNumberInText*2;
+        System.out.println(firstPartOfTheText + theNumberInText + secondPartOfTheText);
+        System.out.println(bonusMessage + "XXXXXXXX times");
+        
     }
 }
